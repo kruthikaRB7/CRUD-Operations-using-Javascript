@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <title>HTML CRUD Operations using JS</title>
+    <link rel="stylesheet" href="features.css">
+    <script type="text/javascript" src="./scripts.js"></script>
+</head>
+<body>
+    <h1><center>JavaScript crud operations</center></h1>
+    <hr>
+            <div class="stu-form" id="stu-form">
+                <form onsubmit="onFormSubmit(event)" autocomplete="off">
+                    <div>
+                        <label for="fullname">Full Name</label>
+                        <input type="text" name="fullname" id="fullname">
+                    </div>
+                    <div>
+                        <label for="stuid">student ID</label>
+                        <input type="text" name="stuid" id="stuid">
+                    </div>
+                    <div>
+                        <label for="class">Class</label>
+                        <input type="number" name="class" id="class">
+                    </div>
+                    <div>
+                        <label for="percentage">Percentage</label>
+                        <input type="number" name="percentage" id="percentage">
+                    </div>
+                    <div class="form-action-buttons">
+                        <button type="submit" >Submit</button>
+                    </div>
+                </form>
+            </div>
+            <br/>
+                <div class="stu-table" id="stu-list">
+                    <table class="list"  id="studentlist">
+                        <thead>
+                        <tr>
+                            <th>Full Name</th>
+                            <th>Student ID</th>
+                            <th>Class</th>
+                            <th>Percentage</th>
+                            <th> Edit</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+
+                    </tbody>
+                </table>
+            </div>
+    <script type="text/javascript" src="./scripts.js"></script>
+</body>
+</html>
